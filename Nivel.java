@@ -14,6 +14,7 @@ public class Nivel {
         this.valorBase = valorBase;
         this.edadMinima = edadMinima;
         this.edadMaxima = edadMaxima;
+        this.estudiantes = new ArrayList<>();
     }
 
     public double getTRANSPORTE() {
@@ -53,13 +54,7 @@ public class Nivel {
     }
 
     public ArrayList<Niño> getEstudiantes() {
-        return estudiantes;
+        return this.estudiantes;
     }
-
-    public void setEstudiantes(ArrayList<Niño> estudiantes) {
-        this.estudiantes = estudiantes;
-    }
-
-    
 
 }
