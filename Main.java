@@ -19,22 +19,22 @@ public class Main {
         niveles.add(nivel3);
         
         
+        //Niño niño1 = new Niño("Andres", 1, 0);
+        //Niño niño2 = new Niño("Felipe", 2, 1);
+        //Niño niño3 = new Niño("Luisa", 3, 2);
+        //Niño niño4 = new Niño("Fernanda", 4, 3);
+        //Niño niño5 = new Niño("Alejandra", 5, 4);
+        //Niño niño6 = new Niño("Sebastian", 5, 5);
+        //
+        //nivel1.estudiantes.add(niño1);
+        //nivel1.estudiantes.add(niño2);
+        //nivel2.estudiantes.add(niño3);
+        //nivel2.estudiantes.add(niño4);
+        //nivel3.estudiantes.add(niño5);
+        //nivel3.estudiantes.add(niño6);
+        
+        
         do{
-            Niño niño1 = new Niño("Andres", 1, 0);
-            Niño niño2 = new Niño("Felipe", 2, 1);
-            Niño niño3 = new Niño("Luisa", 3, 2);
-            Niño niño4 = new Niño("Fernanda", 4, 3);
-            Niño niño5 = new Niño("Alejandra", 5, 4);
-            Niño niño6 = new Niño("Sebastian", 5, 5);
-
-            nivel1.estudiantes.add(niño1);
-            nivel1.estudiantes.add(niño2);
-            nivel2.estudiantes.add(niño3);
-            nivel2.estudiantes.add(niño4);
-            nivel3.estudiantes.add(niño5);
-            nivel3.estudiantes.add(niño6);
-            
-
             Nivel nivelAplicable = null;
         
             String nombre = JOptionPane.showInputDialog("Ingrese el nombre del niño");
